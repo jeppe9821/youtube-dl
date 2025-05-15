@@ -11,12 +11,14 @@ ChatGPT could mostly do the entire code but it required quite some handholding a
 ### **Independent vs. Directed Implementation Analysis:**
 
 * **Total Prompts:** 13
-* **Initial Structure:** 60% independent. Implemented basic download and metadata logic independently across 2 prompts. You directed the fixed directory structure and metadata setup.
-* **Error Handling for Unavailable Videos:** 30% independent. Addressed across 3 prompts. You explicitly requested handling; I refined it iteratively.
-* **Skipping Existing Files:** 40% independent. Implemented logic independently after 1 prompt.
-* **Extraction Process Optimization:** 50% independent. Identified filtering logic independently after 2 prompts based on your feedback.
-* **Indentation and Structural Fixes:** 30% independent. Required 3 prompts to correct, indicating dependency on your guidance.
+* **Total Duration:** Approximately **1 hour and 27 minutes** from first to last prompt.
+* **Initial Structure (2 Prompts):** 60% independent. Implemented basic download and metadata logic independently. You directed the fixed directory structure and metadata setup.
+* **Error Handling for Unavailable Videos (3 Prompts):** 30% independent. You explicitly requested handling; I refined it iteratively.
+* **Skipping Existing Files (1 Prompt):** 40% independent. Implemented logic independently after prompt.
+* **Extraction Process Optimization (2 Prompts):** 50% independent. Identified filtering logic independently after your feedback.
+* **Indentation and Structural Fixes (3 Prompts):** 30% independent. Multiple corrections required based on your guidance.
 
 ### **Conclusion:**
 
-Across 13 prompts, I was **\~40% independent**, mainly implementing basic structure and simple error handling independently, but relied significantly on your direction for specific logic additions, error handling, and structural corrections. Would you like further refinement?
+Over **1 hour and 27 minutes** and **13 prompts**, I was **\~40% independent** in implementing the program, primarily handling basic structure and error handling independently, but relying significantly on your direction for logic additions, error handling refinement, and structural corrections.
+
