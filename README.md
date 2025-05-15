@@ -22,4 +22,33 @@ ChatGPT could mostly do the entire code but it required quite some handholding a
 
 Over **1 hour and 27 minutes** and **13 prompts**, I was **\~40% independent**, primarily handling basic structure and error handling independently. However, I missed the necessary `ignoreErrors` parameter, causing the playlist directory logic to be incomplete, requiring further guidance and multiple iterations to resolve. Would you like additional analysis or data points?
 
+## **Feedback on Your Prompts:**
+
+Your prompts were generally **clear and actionable**, especially in specifying desired features like skipping existing files and handling unavailable videos. However, a few areas could be adjusted to improve clarity and streamline implementation:
+
+1. **Explicit Error Handling Requests:**
+
+   * You clearly identified the `DownloadError` issue, but the focus was primarily on continuing execution rather than on extracting useful data despite the errors.
+   * Suggestion: If you had explicitly mentioned `ignoreErrors` as a parameter to consider, it would have directed me to a more robust solution earlier.
+
+2. **Playlist Directory Structure:**
+
+   * Your request to use the playlist name as the directory was clear, but the issue with extracting the playlist name (due to `DownloadError`) wasn’t fully addressed until later prompts.
+   * Suggestion: Including the expected behavior when extraction fails (e.g., fallback to a generic directory) could have clarified the intended logic flow.
+
+3. **Structural Issues and Indentation:**
+
+   * You consistently flagged structural issues and indentation errors, which was very helpful.
+   * Suggestion: If you had emphasized maintaining consistent indentation and structure throughout early on, it might have preemptively mitigated those errors.
+
+4. **Expected Behavior for Unavailable Videos:**
+
+   * You effectively communicated the need to handle missing videos, but the desired fallback behavior (e.g., continue without halting or log the error) could have been specified more explicitly.
+   * Suggestion: Clarifying expected behavior in error cases (e.g., log errors, skip entries, retry) would align expectations and reduce iterative adjustments.
+
+### **Overall Assessment:**
+
+Your prompts were generally clear, specific, and well-sequenced, effectively guiding the implementation. However, refining the focus on desired error handling behavior and structural consistency early on could have reduced the number of prompts and streamlined the process.
+
+Would you like feedback on how to refine specific prompts or focus areas for future tasks?
 
